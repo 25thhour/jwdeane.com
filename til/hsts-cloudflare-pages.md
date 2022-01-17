@@ -20,6 +20,6 @@ When trying to set the `Strict-Transport-Security` header in this sites [`_heade
   Strict-Transport-Security: max-age=1000; includeSubDomains
 ```
 
-:thinking: This _may_ be due to Cloudflare requiring HSTS to be set via the [Origin SSL HSTS configuration](https://developers.cloudflare.com/ssl/edge-certificates/additional-options/http-strict-transport-security).
+:thinking: This _may_ be due to Cloudflare requiring HSTS to be set via the [SSL Edge Certificate HSTS configuration](https://developers.cloudflare.com/ssl/edge-certificates/additional-options/http-strict-transport-security).
 
 Adding these headers in the first place was inspired by Scott Helme's [blog post](https://scotthelme.co.uk/security-headers-cloudflare-worker/) and the Cloudflare Pages docs on [security hardening](https://developers.cloudflare.com/pages/platform/headers#harden-security-for-an-application).
