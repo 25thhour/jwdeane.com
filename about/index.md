@@ -1,6 +1,6 @@
 ---
 layout: layouts/home.njk
-title: About Me
+title: About Me | jwdeane.com
 templateClass: tmpl-post
 eleventyNavigation:
   key: About
