@@ -1,0 +1,21 @@
+{
+  "title": "Better Late Than Never",
+  "url": "https://jwdeane.com/",
+  "language": "en",
+  "description": "My personal notes, 25+ years in the making.",
+  "feed": {
+    "subtitle": "My personal notes, 25+ years in the making.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://jwdeane.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://jwdeane.com/feed/feed.json"
+  },
+  "author": {
+    "name": "James Deane",
+    "email": "hi@jwdeane.com",
+    "url": "https://jwdeane.com/about/"
+  }
+}

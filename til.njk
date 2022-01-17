@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+permalink: /til/
+eleventyNavigation:
+  key: TIL
+  order: 3
+---
+
+<h1>TIL</h1>
+
+{% set postslist = collections.til %}
+{% include "postslist.njk" %}
