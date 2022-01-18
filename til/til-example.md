@@ -1,9 +1,9 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
+title: This is my first til.
+description: til about cheese.
+date: 2022-19-01
 tags:
-  - another tag
+  - cheese
 layout: layouts/post.njk
 ---
 
