@@ -10,4 +10,9 @@ eleventyNavigation:
 <h1>TIL</h1>
 
 {% set postslist = collections.til %}
-{% include "postslist.njk" %}
+{% if postslist.length %}
+  {% include "postslist.njk" %}
+{% else %}
+<p>👻 🏚️ &nbsp;No posts yet.</p>
+{% endif %}
+
