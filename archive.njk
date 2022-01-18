@@ -1,13 +1,17 @@
 ---
 layout: layouts/home.njk
-title: Blog Posts | jwdeane.com
+title: Posts | jwdeane.com
 permalink: /posts/
 eleventyNavigation:
-  key: Blog
+  key: Posts
   order: 2
 ---
 
-<h1>Blog Posts</h1>
+<h1>All Posts</h1>
 
 {% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+{% if postslist.length %}
+  {% include "postslist.njk" %}
+{% else %}
+<p>👻 🏚️ &nbsp;No posts yet.</p>
+{% endif %}
